@@ -17,7 +17,7 @@ Now that you have cloned the repo:
 Start Android Studio and close any open Android Studio projects.
 From the Android Studio menu select File > New > Import Project.
 Alternatively, from the Welcome screen, select Import project (Eclipse ADT, Gradle, etc.).
-Select the Eclipse ADT project folder with the AndroidManifest.xml file and click Ok.
+Select the project folder with the AndroidManifest.xml file and click Ok.
 
 Select the destination folder and click Next.
 
