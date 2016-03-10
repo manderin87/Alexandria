@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_library_background"
+
+             android:clipChildren="false">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal|top">
+
+        <LinearLayout
+            android:id="@+id/linearLayout_addorscan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <ImageButton
+                android:id="@+id/imageButton_add_book_by_entry"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/btn_enter_isbn"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/add_book_by_isbn_view_title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_book_view_enter_isbn"
+                android:textColor="@color/black"/>
+
+            <ImageButton
+                android:id="@+id/imageButton_add_book_by_scan"
+                android:layout_marginTop="30dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/btn_scan_isbn"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/add_book_by_scan_view_title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_book_view_scan_isbn"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</FrameLayout>

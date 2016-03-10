@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alexandria</string>
+
+    <!-- Menu Items -->
+    <string name="books">List of Books</string>
+    <string name="scan">Scan/Add a Book</string>
+    <string name="about">About this App</string>
+
+    <string name="navigation_drawer_open" >Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_header">Navigation Drawer Header</string>
+    <string name="action_settings">Settings</string>
+    <string name="scan_button">Scan</string>
+    <string name="library_icon">Library Icon</string>
+
+    <string name="book_cover">Bookcover</string>
+
+    <string name="about_view_title">About</string>
+
+    <string name="add_book_network_connection_error">No network connection!</string>
+    <string name="add_book_retry">RETRY</string>
+
+    <string name="add_book_cancel_dialog_title">Cancel?</string>
+    <string name="add_book_cancel_dialog_message">Are you sure you want to cancel?</string>
+    <string name="add_book_cancel_dialog_yes">Yes</string>
+    <string name="add_book_cancel_dialog_no">No</string>
+
+    <string name="add_book_add_dialog_title">Add Book?</string>
+    <string name="add_book_add_dialog_message">Are you sure you want to add this book to your library?</string>
+    <string name="add_book_add_dialog_yes">Yes</string>
+    <string name="add_book_add_dialog_no">No</string>
+
+    <string name="add_book_no_results">That ISBN has no results!</string>
+
+    <string name="library_view_title">Alexandria</string>
+    <string name="add_book_view_title">Add to my Library</string>
+
+    <string name="add_book_by_isbn_view_title">Add Book By Entering ISBN</string>
+    <string name="add_book_by_isbn_view_isbn_title">ISBN 10/13: </string>
+    <string name="add_book_by_isbn_view_isbn_hint">Insert ISBN-10 or 13</string>
+
+    <string name="add_book_by_scan_view_title">Add Book By Scanning ISBN</string>
+    <string name="add_book_by_scan_view_isbn_title">ISBN 10/13: </string>
+
+    <string name="add_book_ok_button">Add Book</string>
+    <string name="add_book_cancel_button">Cancel</string>
+
+    <string name="add_book_view_enter_isbn">Enter ISBN</string>
+    <string name="add_book_view_scan_isbn">Scan ISBN</string>
+
+    <string name="book_detail_view_fragment_book_title">Title</string>
+    <string name="book_detail_view_fragment_book_author">Author</string>
+    <string name="book_detail_view_fragment_book_publisher">Publisher</string>
+    <string name="book_detail_view_fragment_book_genre">Genre</string>
+    <string name="book_detail_view_fragment_book_description">Description</string>
+
+    <string name="book_detail_view_fragment_delete_book_dialog_title">Delete Book?</string>
+    <string name="book_detail_view_fragment_delete_book_dialog_message">Are you sure you want to delete this book from your library?</string>
+    <string name="book_detail_view_fragment_delete_book_dialog_yes">Yes</string>
+    <string name="book_detail_view_fragment_delete_book_dialog_no">No</string>
+
+
+    <string name="cover">cover</string>
+    <string name="cancel">Cancel</string>
+    <string name="detail">detail</string>
+    <string name="clear">Clear</string>
+    <string name="not_found">No Book found</string>
+    <string name="search">Search</string>
+    <string name="delete_button">Delete Book</string>
+    <string name="pref_startScreen">Select Startscreen</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_accept">Accept</string>
+    <string name="action_share">Share</string>
+    <string name="back_button">Back</string>
+    <string name="share_text">A must read book: </string>
+
+    <string name="about_text">Navigation header image Library of Alexandria (C) Wizards of the Coast, used with permission for educational purposes only. This application gets book information from the Google Book API. All titles, cover images, and author information come from there. This application concept was taken from the Udacity Android Nano Degree Alexandria app and was refactored.
+    </string>
+</resources>

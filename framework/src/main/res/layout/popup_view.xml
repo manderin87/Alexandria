@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="Title"
+        android:id="@+id/textView_title"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Message"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:id="@+id/textView_message"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="OK"
+            android:id="@+id/button_ok"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:text="Cancel"
+            android:textColor="#000000"
+            android:id="@+id/button_cancel"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

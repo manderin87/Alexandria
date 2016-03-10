@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hydeudacityproject.alexandria" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera2" />
+    <uses-feature android:name="android.hardware.camera2.autofocus" />
+
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LibraryView.LibraryView"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ScannerView.ScannerView"
+                  android:windowSoftInputMode="adjustPan">
+        </activity>
+
+        <activity android:name=".Book.AddBookView"
+                  android:windowSoftInputMode="adjustPan">
+        </activity>
+
+        <activity android:name=".Book.AddBookByISBNView"
+                  android:windowSoftInputMode="adjustPan|stateAlwaysVisible">
+        </activity>
+
+        <activity android:name=".Book.AddBookByScanView"
+                  android:windowSoftInputMode="adjustPan">
+        </activity>
+
+        <activity android:name=".Detail.BookDetailView"
+                  android:windowSoftInputMode="adjustPan">
+        </activity>
+
+        <activity android:name=".AboutView.AboutView"
+                  android:windowSoftInputMode="adjustPan">
+        </activity>
+
+        <provider
+            android:name=".Service.ContentProvider.BookContentProvider"
+            android:authorities="com.hydeudacityproject.alexandria"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

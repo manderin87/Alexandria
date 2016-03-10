@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/linearLayout_search"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/blue"
+              android:elevation="4dp"
+              android:minHeight="?attr/actionBarSize"
+              android:orientation="horizontal"
+              android:gravity="center_vertical"
+              android:visibility="gone"
+    android:weightSum="1"
+    android:clickable="true">
+
+
+    <ImageButton
+        android:layout_marginStart="10dp"
+        android:id="@+id/imageButton_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_action_back"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/back_button"/>
+
+    <ImageView
+        android:layout_marginStart="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_action_search_white"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/search"/>
+
+        <EditText
+            android:id="@+id/editText_search"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.98"
+            android:hint="@string/search"
+            android:textColorHint="#7FFFFFFF"
+            android:textColor="#FFFFFFFF"
+            android:inputType="textAutoComplete"
+            android:textCursorDrawable="@drawable/editview_search_cursor"
+            android:textColorHighlight="#FFFFFF"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:background="@drawable/edittext_search"/>
+
+    <ImageButton
+        android:id="@+id/imageButton_clear"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_cancel_search"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/clear"/>
+
+
+</LinearLayout>

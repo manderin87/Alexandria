@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_library_view"
+            android:checked="true"
+            android:icon="@drawable/ic_library_view"
+            android:title="Library View" />
+        <item
+            android:id="@+id/add_book_view"
+            android:icon="@drawable/ic_entry_choice"
+            android:title="Add a Book" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_about"
+            android:title="About"/>
+    </group>
+</menu>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_0_selector"
+            android:layout_gravity="left|center_vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/button_0"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_8_selector"
+            android:id="@+id/button_8"
+            android:layout_above="@+id/button_0"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_9_selector"
+            android:id="@+id/button_9"
+            android:layout_alignTop="@+id/button_8"
+            android:layout_toEndOf="@+id/button_8"
+            android:layout_marginStart="20dp"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_7_selector"
+            android:id="@+id/button_7"
+            android:layout_alignTop="@+id/button_8"
+            android:layout_toStartOf="@+id/button_8"
+            android:layout_marginEnd="20dp"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_6_selector"
+            android:id="@+id/button_6"
+            android:layout_marginBottom="20dp"
+            android:layout_above="@+id/button_9"
+            android:layout_alignStart="@+id/button_9"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_5_selector"
+            android:id="@+id/button_5"
+            android:layout_alignBottom="@+id/button_6"
+            android:layout_toEndOf="@+id/button_7"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_4_selector"
+            android:id="@+id/button_4"
+            android:layout_alignBottom="@+id/button_5"
+            android:layout_alignEnd="@+id/button_7"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_3_selector"
+            android:id="@+id/button_3"
+            android:layout_marginBottom="20dp"
+            android:layout_above="@+id/button_6"
+            android:layout_alignEnd="@+id/button_6"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_2_selector"
+            android:id="@+id/button_2"
+            android:layout_alignBottom="@+id/button_3"
+            android:layout_toStartOf="@+id/button_9"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_1_selector"
+            android:id="@+id/button_1"
+            android:layout_alignBottom="@+id/button_2"
+            android:layout_alignEnd="@+id/button_4"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_delete_selector"
+            android:id="@+id/button_delete"
+            android:layout_alignTop="@+id/button_0"
+            android:layout_alignEnd="@+id/button_7"
+            android:visibility="gone"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_alt_selector"
+            android:id="@+id/button_alt"
+            android:layout_alignTop="@+id/button_0"
+            android:layout_alignEnd="@+id/button_9"
+            android:visibility="gone"/>
+
+        <com.metrostarsystems.mssframework.UI.PinView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/pinView"
+            android:layout_above="@+id/button_2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            app:backgroundImage="@drawable/ic_circle_empty"
+            app:foregroundImage="@drawable/ic_circle_filled"
+            app:backgroundImageSize="15dp"
+            app:foregroundImageSize="15dp"
+            app:imageMargin="15dp"
+            app:pinLength="4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="chances remaining"
+            android:textSize="14dp"
+            android:textStyle="italic"
+            android:textColor="@android:color/holo_red_dark"
+            android:id="@+id/textView_error"
+            android:layout_above="@+id/pinView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Pincode"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/textView_title"
+            android:layout_above="@+id/textView_error"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"/>
+
+</merge>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="backgroundImage" format="reference" />
+    <attr name="foregroundImage" format="reference" />
+    <attr name="backgroundImageSize" format="dimension"/>
+    <attr name="foregroundImageSize" format="dimension" />
+    <attr name="pinLength" format="integer" />
+
+    <!--<declare-styleable name="dotViewStyle">-->
+        <!--<attr name="dotViewStyle" format="reference"/>-->
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="DotView">
+        <attr name="backgroundImage" />
+        <attr name="foregroundImage" />
+        <attr name="backgroundImageSize" />
+        <attr name="foregroundImageSize" />
+    </declare-styleable>
+
+    <!--<declare-styleable name="pinViewStyle">-->
+        <!--<attr name="pinViewStyle" format="reference"/>-->
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="PinView">
+        <attr name="backgroundImage" />
+        <attr name="foregroundImage" />
+        <attr name="backgroundImageSize" />
+        <attr name="foregroundImageSize" />
+        <attr name="pinLength" />
+        <attr name="imageMargin" format="dimension"/>
+    </declare-styleable>
+
+    <!--<declare-styleable name="pincodeViewStyle">-->
+        <!--<attr name="pincodeViewStyle" format="reference"/>-->
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="PincodeView">
+        <attr name="pinLength" />
+        <attr name="maxErrors" format="integer" />
+        <attr name="showAlternate" format="boolean"/>
+    </declare-styleable>
+
+    <!--<declare-styleable name="imageToggleButtonStyle">-->
+        <!--<attr name="imageToggleButtonStyle" format="reference"/>-->
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="ImageToggleButton">
+        <attr name="checkedImage" format="reference"/>
+        <attr name="uncheckedImage" format="reference"/>
+        <attr name="checkedBackgroundImage" format="reference"/>
+        <attr name="uncheckedBackgroundImage" format="reference"/>
+    </declare-styleable>
+
+</resources>
